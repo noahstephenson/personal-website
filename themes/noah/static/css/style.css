@@ -1,0 +1,459 @@
+/* ── Custom properties ── */
+:root {
+  --bg: #f9f9f7;
+  --text: #0d0d0d;
+  --accent: #1a2744;
+  --accent-hover: #243560;
+  --muted: #555;
+  --card-bg: #f0f0ee;
+  --border: #ddddd9;
+  --header-bg: #f9f9f7;
+}
+
+html.dark {
+  --bg: #0d0d0d;
+  --text: #f0f0ee;
+  --accent: #4a6fa5;
+  --accent-hover: #5b82bc;
+  --muted: #999;
+  --card-bg: #141414;
+  --border: #2a2a2a;
+  --header-bg: #0d0d0d;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ── */
+html {
+  transition: background 0.2s, color 0.2s;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 16px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ── Header ── */
+header {
+  position: sticky;
+  top: 0;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  padding: 0 2rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.site-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  flex-shrink: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* ── Dark mode toggle ── */
+#dark-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 1rem;
+  padding: 0.2rem 0.35rem;
+  line-height: 1;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+
+#dark-toggle:hover {
+  color: var(--text);
+}
+
+/* ── Main ── */
+main {
+  min-height: calc(100vh - 60px - 56px);
+}
+
+/* ── Hero ── */
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 2rem 4rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  margin-bottom: 1.25rem;
+}
+
+.hero .tagline {
+  font-size: clamp(0.75rem, 2vw, 0.875rem);
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.hero .value-statement {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--muted);
+  font-style: italic;
+  border-left: 3px solid var(--accent);
+  padding-left: 1.25rem;
+  margin-bottom: 2.75rem;
+  max-width: 620px;
+  line-height: 1.55;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.5rem;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* ── Page content ── */
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.page-content > h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+.page-content h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.page-content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.page-content ul,
+.page-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.page-content li {
+  margin-bottom: 0.4rem;
+  line-height: 1.65;
+}
+
+.page-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.page-content a:hover {
+  text-decoration: underline;
+}
+
+/* ── Project cards ── */
+.project-card {
+  border-left: 4px solid var(--accent);
+  background: var(--card-bg);
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2rem;
+  transition: background 0.2s;
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.project-card p {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.project-card p:last-child {
+  margin-bottom: 0;
+}
+
+.tools-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.15rem 0.55rem;
+  margin: 0.25rem 0.3rem 0 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ── Skills grid ── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.skills-column h3 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.skills-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-column li {
+  font-size: 0.9rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  transition: border-color 0.2s;
+}
+
+.skills-column li:last-child {
+  border-bottom: none;
+}
+
+/* ── Experience ── */
+.experience-entry {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  transition: border-color 0.2s;
+}
+
+.experience-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.experience-entry .role {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: var(--text);
+}
+
+.experience-entry .org-date {
+  font-size: 0.825rem;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.9rem;
+}
+
+.experience-entry ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.experience-entry li {
+  font-size: 0.925rem;
+  line-height: 1.65;
+  margin-bottom: 0.4rem;
+  color: var(--text);
+}
+
+/* ── Contact ── */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.contact-list li:last-child {
+  border-bottom: none;
+}
+
+.contact-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.contact-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* ── Footer ── */
+footer {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  transition: border-color 0.2s;
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  header {
+    padding: 0.65rem 1.25rem;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  nav {
+    width: 100%;
+    gap: 0.85rem;
+    overflow-x: auto;
+    padding-bottom: 0.1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav a {
+    font-size: 0.7rem;
+  }
+
+  .hero {
+    padding: 3rem 1.25rem 3rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .page-content {
+    padding: 2rem 1.25rem 3.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .project-card {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  nav a {
+    font-size: 0.65rem;
+  }
+}

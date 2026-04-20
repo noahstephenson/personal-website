@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Noah Stephenson</h1>
+  <p class="tagline">Systems Engineering Cadet &nbsp;&bull;&nbsp; Cyber-Physical Systems &amp; MBSE &nbsp;&bull;&nbsp; Future Defense &amp; Tech Leader</p>
+  <p class="value-statement">&ldquo;I design and analyze systems that translate complex mission requirements into operational capabilities.&rdquo;</p>
+  <div class="hero-buttons">
+    <a href="{{ SITEURL }}/projects.html" class="btn btn-primary">View Projects</a>
+    <a href="#" class="btn">Download Resume</a>
+    <a href="{{ SITEURL }}/contact.html" class="btn">Contact</a>
+  </div>
+</section>
+{% endblock %}

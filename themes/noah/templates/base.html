@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+  <script>
+    if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
+  </script>
+</head>
+<body>
+  <header>
+    <a href="{{ SITEURL }}/" class="site-name">{{ SITENAME }}</a>
+    <nav>
+      <a href="{{ SITEURL }}/about.html">About</a>
+      <a href="{{ SITEURL }}/projects.html">Projects</a>
+      <a href="{{ SITEURL }}/experience.html">Experience</a>
+      <a href="{{ SITEURL }}/skills.html">Skills</a>
+      <a href="{{ SITEURL }}/education.html">Education</a>
+      <a href="{{ SITEURL }}/contact.html">Contact</a>
+      <button id="dark-toggle" aria-label="Toggle dark mode">☽</button>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <span>Noah Stephenson &copy; 2025</span>
+  </footer>
+
+  <script src="{{ SITEURL }}/theme/js/main.js"></script>
+</body>
+</html>
