@@ -3,14 +3,32 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
-<section class="hero">
+<section class="home-identity">
   <h1>Noah Stephenson</h1>
-  <p class="tagline">Systems Engineering Cadet &nbsp;&bull;&nbsp; Cyber-Physical Systems &amp; MBSE &nbsp;&bull;&nbsp; Future Defense &amp; Tech Leader</p>
-  <p class="value-statement">&ldquo;I design and analyze systems that translate complex mission requirements into operational capabilities.&rdquo;</p>
-  <div class="hero-buttons">
-    <a href="{{ SITEURL }}/projects.html" class="btn btn-primary">View Projects</a>
-    <a href="#" class="btn">Download Resume</a>
-    <a href="{{ SITEURL }}/contact.html" class="btn">Contact</a>
+  <p class="home-title">West Point &middot; Systems Engineering</p>
+  <p class="home-statement">I work on authentication systems for environments where connectivity isn&rsquo;t guaranteed.</p>
+  <p class="home-statement">The work starts with a formal model and ends with a prototype that either confirms it or breaks it.</p>
+</section>
+
+<section class="featured-project">
+  <p class="section-label">Featured Work</p>
+  <div class="featured-card">
+    <span class="featured-number">01</span>
+    <div class="featured-body">
+      <h2>Tiered Multi-Factor Authentication System</h2>
+      <p class="featured-meta">SysML &middot; Zero Trust &middot; MagicDraw/Cameo &middot; Raspberry Pi</p>
+      <p>Architecture and prototype study of MFA systems across three connectivity conditions: always-on, degraded, and fully isolated.</p>
+      <a href="{{ SITEURL }}/research.html" class="arrow-link">View all research &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="secondary-projects">
+  <p class="section-label">Other Work</p>
+  <div class="secondary-item">
+    <p class="secondary-number">02</p>
+    <h3>Paper Trading Web Application</h3>
+    <p class="secondary-meta">Django &middot; Python</p>
   </div>
 </section>
 {% endblock %}

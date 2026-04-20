@@ -5,17 +5,17 @@ Slug: contact
 
 <li>
 <span class="contact-label">Email</span>
-<a href="mailto:email@example.com">email@example.com</a>
+<a href="mailto:noah.stephenson@westpoint.edu">noah.stephenson@westpoint.edu</a>
 </li>
 
 <li>
 <span class="contact-label">LinkedIn</span>
-<a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener">linkedin.com/in/placeholder</a>
+<a href="https://www.linkedin.com/in/noah-stephenson-297331259/" target="_blank" rel="noopener">linkedin.com/in/noah-stephenson-297331259</a>
 </li>
 
 <li>
 <span class="contact-label">GitHub</span>
-<a href="https://github.com/placeholder" target="_blank" rel="noopener">github.com/placeholder</a>
+<a href="https://github.com/noahstephenson" target="_blank" rel="noopener">github.com/noahstephenson</a>
 </li>
 
 </ul>

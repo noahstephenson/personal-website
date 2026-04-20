@@ -1,8 +1,13 @@
 Title: About
 Slug: about
 
-I'm a Systems Engineering Cadet at the United States Military Academy (West Point), specializing in the Cyber track. My work spans model-based systems engineering, system architecture, and physical prototyping — translating complex mission requirements into operational capabilities.
+I'm a Systems Engineering major at West Point, on the Cyber Security Engineering track. My interests are in MBSE, system architecture, Lean Six Sigma process improvement, and rapid prototyping.
 
-My technical foundation includes SysML modeling in MagicDraw/Cameo, full-stack development with Django and Python, and hardware prototyping with Raspberry Pi and Node-RED. I approach engineering problems with an architect's eye: define requirements, decompose functions, validate through prototype.
+I use SysML for the modeling side: requirements, interfaces, trade studies. The hardware work is part of the same process — modeling and prototyping together, not in sequence.
 
-My career path runs Army officer → MBA → Consulting or Defense Tech leadership. I'm building the technical and analytical foundation now to operate at the intersection of national security and emerging technology.
+This summer I'm interning with Archaius, working on systems architecture in the defense technology space. After commissioning, I'll serve as an Army officer — engineer is my first choice. The longer-term plan is graduate school — systems engineering or an MBA.
+
+<hr>
+
+<p><strong>United States Military Academy (West Point)</strong><br>
+B.S. Systems Engineering, Cyber Security Engineering Track &mdash; Expected May 2027</p>
