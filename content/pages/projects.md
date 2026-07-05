@@ -47,12 +47,12 @@ Slug: projects
 
 <h3>Paper Trading Web App</h3>
 
-<p><strong>Problem:</strong> No low-risk environment to practice trading workflows with realistic system constraints — authentication, transaction logic, portfolio state.</p>
+<p>A full-stack paper trading platform built with Django and Postgres, deployed on Render. Includes a trade rationale journal, cash balance tracking, an AI trading coach built on the Anthropic API, and a trade reflection workflow designed to make you articulate why you made a trade before and after you make it.</p>
 
-<p><strong>Approach:</strong> Full-stack build from scratch: user authentication, trade execution, portfolio tracking, and transaction history. Designed to mirror real brokerage system constraints.</p>
+<p><strong>Tools:</strong> <span class="tools-tag">Django</span> <span class="tools-tag">Postgres</span> <span class="tools-tag">Python</span> <span class="tools-tag">Anthropic API</span></p>
 
-<p><strong>Tools:</strong> <span class="tools-tag">Django</span> <span class="tools-tag">Python</span></p>
+<p><a href="https://github.com/noahstephenson/Paper-Trading-App" target="_blank" rel="noopener">GitHub &rarr;</a></p>
 
-<p><strong>Outcome:</strong> Fully functional web app simulating real trading workflows. Reinforced full-stack development discipline — from data model to UI — under self-imposed constraints.</p>
+<p>TODO: add live URL once Render URL is confirmed</p>
 
 </div>

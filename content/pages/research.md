@@ -65,3 +65,57 @@ Slug: research
 </ul>
 
 </div>
+
+<div class="case-study">
+
+<div class="case-study-header">
+<span class="case-number">03</span>
+<div>
+<h2>Tiered Multi-Factor Authentication, Governed by MBSE</h2>
+<p class="case-meta">SE489 &middot; 2026 &middot; SysML &middot; Raspberry Pi &middot; Django &middot; Node-RED &middot; With Matthew Wolfe &middot; <a href="https://github.com/noahstephenson/MFA-System" target="_blank" rel="noopener">GitHub &rarr;</a></p>
+</div>
+</div>
+
+<p>A working prototype of a tiered multi-factor authentication system built on a Raspberry Pi, integrating RFID, fingerprint, and PIN authentication with Django and Node-RED. The architecture is governed by a SysML logical model, with changes flowing both ways: the model shapes the prototype, and what breaks in the prototype refines the model. Developed in SE489 with Matthew Wolfe.</p>
+
+</div>
+
+<div class="case-study">
+
+<div class="case-study-header">
+<span class="case-number">04</span>
+<div>
+<h2>MagicGrid vs. Generic SysML</h2>
+<p class="case-meta">MBSE &middot; SysML &middot; Ongoing</p>
+</div>
+</div>
+
+<p>An ongoing comparison of the MagicGrid framework against a generic SysML approach, using a smart magazine as the case study. The working question: MagicGrid enforces the conceptual checkpoints defense practice expects, but does that structure earn its overhead in exploratory design?</p>
+
+</div>
+
+<h2>Publications</h2>
+
+<div class="case-study">
+
+<div class="case-study-header">
+<span class="case-number">01</span>
+<div>
+<h2>MBSE-Guided Tiered Multi-Factor Authentication</h2>
+<p class="case-meta">With Matthew Wolfe &middot; MIT IEEE URTC 2026 &middot; In preparation</p>
+</div>
+</div>
+
+</div>
+
+<div class="case-study">
+
+<div class="case-study-header">
+<span class="case-number">02</span>
+<div>
+<h2>MFA Beyond the Login Screen</h2>
+<p class="case-meta">IEEE Potentials &middot; Under review</p>
+</div>
+</div>
+
+</div>
