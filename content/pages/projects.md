@@ -3,20 +3,6 @@ Slug: projects
 
 <div class="project-card">
 
-<h3>Tiered MFA System</h3>
-
-<p><strong>Problem:</strong> Designing scalable, zero-trust-aligned authentication architecture for military-grade systems.</p>
-
-<p><strong>Approach:</strong> Conducted SysML architecture comparison across Tier 1, Tier 2, and Tier 3 MFA configurations. Validated design decisions against Zero Trust principles with a working Raspberry Pi prototype.</p>
-
-<p><strong>Tools:</strong> <span class="tools-tag">MagicDraw / Cameo</span> <span class="tools-tag">SysML</span> <span class="tools-tag">Raspberry Pi</span></p>
-
-<p><strong>Outcome:</strong> Demonstrated Zero Trust alignment through MBSE modeling and physical prototype. Architecture scales from individual user authentication to enterprise deployment.</p>
-
-</div>
-
-<div class="project-card">
-
 <h3>Smart M4 Magazine</h3>
 
 <p><strong>Problem:</strong> Soldiers lack real-time ammunition awareness in operational environments, creating a critical gap in squad-level situational awareness.</p>
@@ -31,23 +17,9 @@ Slug: projects
 
 <div class="project-card">
 
-<h3>NHL Analytics Dashboard</h3>
-
-<p><strong>Problem:</strong> Complex hockey performance data is inaccessible to non-technical stakeholders, limiting its use in decision-making.</p>
-
-<p><strong>Approach:</strong> Built a data visualization and decision-support tool pulling from public NHL data. Designed with non-technical users as the primary audience — clarity over density.</p>
-
-<p><strong>Tools:</strong> <span class="tools-tag">Python</span> <span class="tools-tag">Streamlit</span></p>
-
-<p><strong>Outcome:</strong> Clean, interactive dashboard enabling non-technical users to surface actionable insights from raw performance data without writing a single query.</p>
-
-</div>
-
-<div class="project-card">
-
 <h3>Paper Trading Web App</h3>
 
-<p>A full-stack paper trading platform built with Django and Postgres, deployed on Render. Includes a trade rationale journal, cash balance tracking, an AI trading coach built on the Anthropic API, and a trade reflection workflow designed to make you articulate why you made a trade before and after you make it.</p>
+<p>A full-stack paper trading platform built in 2026 with Django and Postgres, deployed on Render. Includes a trade rationale journal, cash balance tracking, an AI trading coach built on the Anthropic API, and a trade reflection workflow designed to make you articulate why you made a trade before and after you make it.</p>
 
 <p><strong>Tools:</strong> <span class="tools-tag">Django</span> <span class="tools-tag">Postgres</span> <span class="tools-tag">Python</span> <span class="tools-tag">Anthropic API</span></p>
 

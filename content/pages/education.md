@@ -3,17 +3,10 @@ Slug: education
 
 ## United States Military Academy (West Point)
 
-**B.S. Systems Engineering — Cyber Track**
-Expected Graduation: May 2026
-GPA: [Placeholder]
+**B.S. Systems Engineering, Cyber Security Engineering Track**
+Expected Graduation: May 2027
+GPA: 3.79
 
 ### Relevant Coursework
 
-- Systems Engineering Analysis
-- Cyber-Physical Systems
-- Model-Based Systems Engineering
-- Software Engineering
-- Data Structures & Algorithms
-- Probability & Statistics
-- Operations Research
-- Engineering Ethics
+- Coursework to be updated

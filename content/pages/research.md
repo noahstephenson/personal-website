@@ -7,7 +7,7 @@ Slug: research
 <span class="case-number">01</span>
 <div>
 <h2>Tiered Multi-Factor Authentication System</h2>
-<p class="case-meta">Systems Engineering &middot; 2026 &middot; SysML &middot; MagicDraw/Cameo &middot; Raspberry Pi &middot; Node-RED &middot; Django &middot; <a href="https://github.com/noahstephenson/MFA-System" target="_blank" rel="noopener">GitHub &rarr;</a></p>
+<p class="case-meta">2026 &middot; SysML &middot; MagicDraw/Cameo &middot; Raspberry Pi &middot; Node-RED &middot; Django &middot; With Matthew Wolfe &middot; <a href="https://github.com/noahstephenson/MFA-System" target="_blank" rel="noopener">GitHub &rarr;</a></p>
 </div>
 </div>
 
@@ -30,7 +30,7 @@ Slug: research
 <ul>
 <li>Three SysML architecture models, each with documented design rationale</li>
 <li>A trade study showing that the same Zero Trust requirements can be satisfied in different ways across connectivity tiers</li>
-<li>A prototype that confirmed the architecture was buildable and exposed issues the model alone did not catch</li>
+<li>A prototype that confirmed the architecture was buildable; changes flowed both ways, with the model shaping implementation decisions and prototype failures driving two revisions to the model&rsquo;s interface specifications</li>
 </ul>
 
 </div>
@@ -39,51 +39,6 @@ Slug: research
 
 <div class="case-study-header">
 <span class="case-number">02</span>
-<div>
-<h2>Paper Trading Web Application</h2>
-<p class="case-meta">Full-Stack Engineering &middot; 2023 &middot; Django &middot; Python</p>
-</div>
-</div>
-
-<p class="case-section-label">Problem</p>
-
-<p>The interesting part of a trading simulator isn&rsquo;t the interface. It&rsquo;s getting the underlying system right: auth flows, transaction integrity, consistent portfolio state.</p>
-
-<p class="case-section-label">Approach</p>
-
-<ul>
-<li>Designed the data model: users, positions, transaction history, market data</li>
-<li>Built authentication and session management with Django</li>
-<li>Implemented trade execution logic using live market data to enforce real transaction constraints</li>
-</ul>
-
-<p class="case-section-label">Outcome</p>
-
-<ul>
-<li>Full application handling auth, trade execution, and persistent portfolio state</li>
-<li>Built end-to-end &mdash; data model to deployed interface</li>
-</ul>
-
-</div>
-
-<div class="case-study">
-
-<div class="case-study-header">
-<span class="case-number">03</span>
-<div>
-<h2>Tiered Multi-Factor Authentication, Governed by MBSE</h2>
-<p class="case-meta">SE489 &middot; 2026 &middot; SysML &middot; Raspberry Pi &middot; Django &middot; Node-RED &middot; With Matthew Wolfe &middot; <a href="https://github.com/noahstephenson/MFA-System" target="_blank" rel="noopener">GitHub &rarr;</a></p>
-</div>
-</div>
-
-<p>A working prototype of a tiered multi-factor authentication system built on a Raspberry Pi, integrating RFID, fingerprint, and PIN authentication with Django and Node-RED. The architecture is governed by a SysML logical model, with changes flowing both ways: the model shapes the prototype, and what breaks in the prototype refines the model. Developed in SE489 with Matthew Wolfe.</p>
-
-</div>
-
-<div class="case-study">
-
-<div class="case-study-header">
-<span class="case-number">04</span>
 <div>
 <h2>MagicGrid vs. Generic SysML</h2>
 <p class="case-meta">MBSE &middot; SysML &middot; Ongoing</p>
