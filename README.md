@@ -10,8 +10,8 @@ Built with [Pelican](https://getpelican.com/) (Python static site generator), a 
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/noahstephenson/personal-website.git
+cd personal-website
 ```
 
 **2. Create and activate a virtual environment**
@@ -34,14 +34,10 @@ Visit [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## Push to GitHub
+## Local Build
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/yourusername/your-repo.git
-git push -u origin main
+pelican content
 ```
 
 ---
@@ -56,4 +52,4 @@ git push -u origin main
    - **Publish Directory**: `output`
 5. Click **Deploy Site**
 
-After your first successful deploy, update `SITEURL` in `publishconf.py` with your Render URL (e.g. `https://noahstephenson.onrender.com`).
+After your first successful deploy, update `SITEURL` in `publishconf.py` with your Render URL.
